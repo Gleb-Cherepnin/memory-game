@@ -106,7 +106,6 @@ body.modal-open {
   overflow: hidden;
   border: 2px solid #e5e7eb;
   border-radius: 12px;
-  background: #4f46e5;
   cursor: pointer;
 }
 
@@ -116,13 +115,9 @@ body.modal-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: repeating-linear-gradient(
-    45deg,
-    #4f46e5,
-    #4f46e5 8px,
-    #6366f1 8px,
-    #6366f1 16px
-  );
+  background-image: url("../assets/cards/shirt.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .card__back::after {
